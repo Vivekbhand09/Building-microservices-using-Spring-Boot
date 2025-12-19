@@ -169,7 +169,17 @@ Access the interactive documentation to test the APIs directly:
 * **Interview Ready:** Designed using production-grade patterns (Audit, DTO, Exception Handling).
 
 ---
-   
+## 📸 Service Snapshots
 
+### Accounts Service
+![Accounts Service](Utils/accounts.png)
 
+---
 
+### Loans Service
+![Loans Service](Utils/loans.png)
+
+---
+
+### Cards Service
+![Cards Service](Utils/cards.png)
