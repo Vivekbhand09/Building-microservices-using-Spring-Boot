@@ -150,6 +150,18 @@ Each microservice is **independently runnable**, exposes REST APIs, maintains it
 | `GET`    | `/api/contact-info`          | Retrieve support and developer contact details |
 
 ---
+## 🗄️ Database Access
+
+All services use an in-memory **H2 Database** for development. You can access the web console to view and query data while the service is running.
+
+| Setting          | Value                                      |
+| :--------------- | :----------------------------------------- |
+| **Console URL** | `http://localhost:<PORT>/h2-console`       |
+| **JDBC URL** | `jdbc:h2:mem:testdb`                       |
+| **User Name** | `sa`                                       |
+| **Password** | *(None/Empty)* |
+
+---
 
 ## 📘 Swagger UI Access
 
