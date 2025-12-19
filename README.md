@@ -172,14 +172,14 @@ Access the interactive documentation to test the APIs directly:
 ## 📸 Service Snapshots
 
 ### Accounts Service
-![Accounts Service](Utils/accounts.png)
+![Accounts Service](Utils/account.png)
 
 ---
 
 ### Loans Service
-![Loans Service](Utils/loans.png)
+![Loans Service](Utils/loan.png)
 
 ---
 
 ### Cards Service
-![Cards Service](Utils/cards.png)
+![Cards Service](Utils/card.png)
