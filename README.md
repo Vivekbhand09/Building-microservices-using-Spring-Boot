@@ -1,4 +1,4 @@
-# 🧩 Building Microservices using Spring Boot  
+# 🧩 Building Microservices using Spring Boot : EazyBank
 ![Java](https://img.shields.io/badge/Java-17-blue?style=for-the-badge)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen?style=for-the-badge)
 ![Spring Microservices](https://img.shields.io/badge/Spring-Microservices-violet?style=for-the-badge)
