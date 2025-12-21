@@ -172,13 +172,14 @@ Access the interactive documentation to test the APIs directly:
 * **Cards Service:** [http://localhost:9000/swagger-ui.html](http://localhost:9000/swagger-ui.html)
 
 ---
+## 📸 Swagger Documentation Snapshots
 
-## 🧩 Architecture Benefits
-
-* **Loosely Coupled:** Services function independently with minimal dependencies.
-* **Separation of Concerns:** Clear boundaries between Web (Controller), Logic (Service), and Data (Repository) layers.
-* **Scalability:** Each service can be scaled independently based on demand.
-* **Interview Ready:** Designed using production-grade patterns (Audit, DTO, Exception Handling).
+### Documentation
+![Accounts Service](Utils/swagger.png)
+### Request
+![Accounts Service](Utils/request.png)
+### Response
+![Accounts Service](Utils/response.png)
 
 ---
 ## 📸 Service Snapshots
