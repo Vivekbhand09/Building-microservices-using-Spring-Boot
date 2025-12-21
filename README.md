@@ -7,12 +7,54 @@
 ![OpenAPI](https://img.shields.io/badge/OpenAPI-Swagger-green?style=for-the-badge)
 ![MVC](https://img.shields.io/badge/Architecture-MVC-lightgrey?style=for-the-badge)
 
+
 ---
+
 
 ## 📌 Section Overview
 
 This section focuses on building **core business microservices** using **Spring Boot** following **clean code and layered architecture principles**.  
 Each microservice is **independently runnable**, exposes REST APIs, maintains its own database, and acts as a **base layer** for future microservices advancements.
+
+
+---
+
+## ⚠️ Challenges with Monolithic Applications
+
+Before adopting a microservices architecture in EazyBank, it is important to understand the limitations of **monolithic applications**, where all features are tightly coupled into a single codebase and deployment unit.
+
+### Key Challenges
+
+- ❌ **Tight Coupling:** All modules are interdependent, making changes risky and time-consuming.
+- ❌ **Limited Scalability:** The entire application must be scaled even if only one feature needs more resources.
+- ❌ **Slow Development Cycle:** A small change requires rebuilding and redeploying the whole application.
+- ❌ **Single Point of Failure:** One failure can bring down the entire system.
+- ❌ **Technology Lock-in:** Difficult to adopt new frameworks or technologies for individual features.
+- ❌ **Poor Maintainability:** As the codebase grows, it becomes harder to understand, test, and modify.
+- ❌ **Deployment Risk:** Frequent deployments increase the risk of production issues.
+- ❌ **Team Dependency:** Multiple teams working on the same codebase causes coordination overhead.
+
+### Why Microservices Are a Better Fit
+These challenges motivated the transition to **microservices**, where services are independently developed, deployed, scaled, and maintained—resulting in higher agility, resilience, and scalability.
+
+---
+## ✅ Benefits of Using Microservices
+
+Microservices architecture addresses many limitations of monolithic applications by breaking the system into **small, independent, and loosely coupled services**. Each service is designed around a specific business capability.
+
+### Key Benefits
+
+- ✅ **Independent Deployment:** Each service can be deployed without affecting others.
+- ✅ **Improved Scalability:** Services can be scaled individually based on demand.
+- ✅ **Better Fault Isolation:** Failure in one service does not bring down the entire system.
+- ✅ **Faster Development:** Teams can work independently on different services.
+- ✅ **Technology Flexibility:** Each service can adopt the most suitable technology stack.
+- ✅ **Easier Maintenance:** Smaller codebases are easier to understand, test, and modify.
+- ✅ **High Availability:** Services can be replicated to improve reliability.
+- ✅ **Cloud-Native Ready:** Microservices align well with containers, orchestration, and CI/CD pipelines.
+
+### Impact on EazyBank
+By adopting microservices, EazyBank achieves greater agility, resilience, and readiness for future cloud-native enhancements such as containerization, centralized configuration, service discovery, and distributed tracing.
 
 ---
 
